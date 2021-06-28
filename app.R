@@ -6,7 +6,6 @@ library(dplyr)
 library(FactoMineR)
 library(base)
 library(factoextra)
-library(BurStMisc)
 library(DT)
 
 
