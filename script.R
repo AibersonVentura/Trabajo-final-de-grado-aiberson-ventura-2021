@@ -12,6 +12,8 @@ library(factoextra)
 library(fpc)
 
 
+# LEER BASES DE DATOS
+
 setwd("E:/Universidad/Stats2021/tfg/datos")
 
 dc<- openxlsx::read.xlsx("clientes3.xlsx", detectDates = TRUE, skipEmptyRows=T)
@@ -20,13 +22,9 @@ dp<- openxlsx::read.xlsx("polizas2.xlsx", detectDates = TRUE, skipEmptyRows=T)
 
 dr<- openxlsx::read.xlsx("recibos3.xlsx", detectDates = TRUE, skipEmptyRows=T)
 
-
-
-dc<-read_xlsx("clientes3.xlsx", sheet="Hoja2")
-
-dp<-read_excel("polizas2.xlsx")
-
-dr<-read_excel("recibos3.xlsx")
+str(dc)
+str(dp)
+str(dr)
 
 # UNIR BASES DE DATOS
 
