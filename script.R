@@ -1,6 +1,5 @@
 # Librerías
-
-library("readxl")
+library(openxlsx)
 library(dplyr)
 library(FactoMineR)
 library(knitr)
@@ -350,7 +349,6 @@ db[,which(names(db)=="CP Principal")]<-NULL
 db[,which(names(db)=="Cod. Tomador")]<-NULL
 db[,which(names(db)=="Prima anual")]<-NULL
 
-################################################################# k<-db
 
 # CONSTRUCCIÓN DE VARIABLES RESPUESTA Y variables activas clustering
 
